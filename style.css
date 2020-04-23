@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+}
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  line-height: 50px;
+  background-color: lightgray;
+}
+
+header * {
+  display: inline;
+  
+}
+header ul {
+  padding: 0;
+}
+
+header li {
+  margin-left: 20px;
+}
+.profile-img {
+  padding: 4px;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
